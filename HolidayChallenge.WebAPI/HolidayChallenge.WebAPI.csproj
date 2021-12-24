@@ -307,6 +307,20 @@
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HolidayChallenge.Data\HolidayChallenge.Data.csproj">
+      <Project>{09780E5C-40C6-4D12-9EA5-16E4F93FDF09}</Project>
+      <Name>HolidayChallenge.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HolidayChallenge.Models\HolidayChallenge.Models.csproj">
+      <Project>{014fd107-b357-4417-8550-ff95bee95f4a}</Project>
+      <Name>HolidayChallenge.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HolidayChallenge.Services\HolidayChallenge.Services.csproj">
+      <Project>{aa2a7fc8-8c19-4949-9447-a471dc8c8112}</Project>
+      <Name>HolidayChallenge.Services</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

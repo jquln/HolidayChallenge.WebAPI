@@ -10,6 +10,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using HolidayChallenge.WebAPI.Providers;
 using HolidayChallenge.WebAPI.Models;
+using HolidayChallenge.Data;
 
 namespace HolidayChallenge.WebAPI
 {

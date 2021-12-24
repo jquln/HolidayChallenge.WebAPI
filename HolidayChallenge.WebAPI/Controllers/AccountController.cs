@@ -16,6 +16,7 @@ using Microsoft.Owin.Security.OAuth;
 using HolidayChallenge.WebAPI.Models;
 using HolidayChallenge.WebAPI.Providers;
 using HolidayChallenge.WebAPI.Results;
+using HolidayChallenge.Data;
 
 namespace HolidayChallenge.WebAPI.Controllers
 {
