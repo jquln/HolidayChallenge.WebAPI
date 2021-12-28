@@ -54,11 +54,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="OrnamentModels\OrnamentCreate.cs" />
+    <Compile Include="OrnamentModels\OrnamentDetail.cs" />
+    <Compile Include="OrnamentModels\OrnamentEdit.cs" />
+    <Compile Include="OrnamentModels\OrnamentList.cs" />
+    <Compile Include="PresentModels\PresentCreate.cs" />
+    <Compile Include="PresentModels\PresentDetail.cs" />
+    <Compile Include="PresentModels\PresentEdit.cs" />
+    <Compile Include="PresentModels\PresentList.cs" />
+    <Compile Include="PresentModels\PresentTreeCreate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TreeModels\TreeCreate.cs" />
+    <Compile Include="TreeModels\TreeDetail.cs" />
+    <Compile Include="TreeModels\TreeEdit.cs" />
+    <Compile Include="TreeModels\TreeList.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
