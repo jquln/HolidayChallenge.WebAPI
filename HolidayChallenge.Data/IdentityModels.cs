@@ -35,9 +35,9 @@ namespace HolidayChallenge.Data
 
 
        
-        //public DbSet<Tree> Trees { get; set; }
-        //public DbSet<Present> Presents { get; set; }
-        //public DbSet<Ornament> Ornaments { get; set; }
+        public DbSet<Tree> Trees { get; set; }
+        public DbSet<Present> Presents { get; set; }
+        public DbSet<Ornament> Ornaments { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
