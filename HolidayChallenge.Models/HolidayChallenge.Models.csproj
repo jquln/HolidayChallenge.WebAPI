@@ -73,6 +73,11 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\HolidayChallenge.Data\HolidayChallenge.Data.csproj">
+      <Project>{09780E5C-40C6-4D12-9EA5-16E4F93FDF09}</Project>
+      <Name>HolidayChallenge.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

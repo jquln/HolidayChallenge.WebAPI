@@ -8,5 +8,8 @@ namespace HolidayChallenge.Models.TreeModels
 {
     public class TreeList
     {
+        public int Id { get; set; }
+
+        public string Description { get; set; }
     }
 }

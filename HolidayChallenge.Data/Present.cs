@@ -13,6 +13,7 @@ namespace HolidayChallenge.Data
         [Key]
         public int Id { get; set; }
 
+        
         public enum PresentType { BigBox, SmallBox, BigBag, SmallBag, Stocking, Unwrapped }
 
         [Required]
