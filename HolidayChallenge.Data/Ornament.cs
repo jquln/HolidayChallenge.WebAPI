@@ -15,7 +15,7 @@ namespace HolidayChallenge.Data
         [Required]
         public string Description { get; set; }
         
-
+        [Required]
         public int TreeId { get; set; }
         public virtual Tree Tree { get; set; }
     }
