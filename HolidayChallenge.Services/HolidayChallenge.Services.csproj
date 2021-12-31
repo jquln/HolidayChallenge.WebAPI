@@ -63,5 +63,15 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HolidayChallenge.Data\HolidayChallenge.Data.csproj">
+      <Project>{09780e5c-40c6-4d12-9ea5-16e4f93fdf09}</Project>
+      <Name>HolidayChallenge.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HolidayChallenge.Models\HolidayChallenge.Models.csproj">
+      <Project>{014fd107-b357-4417-8550-ff95bee95f4a}</Project>
+      <Name>HolidayChallenge.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
