@@ -8,5 +8,6 @@ namespace HolidayChallenge.Models.OrnamentModels
 {
     public class OrnamentList
     {
+        public int Id { get; set; }
     }
 }

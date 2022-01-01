@@ -13,10 +13,10 @@ namespace HolidayChallenge.Models.TreeModels
         [Required]
         public string Description { get; set; }
 
-        [Required]
+       
         public virtual List<Present> Presents { get; set; }
 
-        [Required]
+        
         public virtual List<Ornament> Ornaments { get; set; }
     }
 }

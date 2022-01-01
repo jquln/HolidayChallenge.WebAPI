@@ -9,6 +9,8 @@ namespace HolidayChallenge.Models.PresentModels
 {
     public class PresentTreeCreate
     {
+        [Required]
+        public int TreeId { get; set; }
 
         [Required]
         public string Wrapping { get; set; }
@@ -19,13 +21,11 @@ namespace HolidayChallenge.Models.PresentModels
         [Required]
         public List<string> Hints { get; set; }
 
-        [Required]
+        
         public int TimeShaken { get; set; }
 
-        [Required]
+        
         public bool IsWrapped { get; set; }
 
-        [Required]
-        public int TreeId { get; set; }
     }
 }
